@@ -3,8 +3,8 @@
 
 int main(){
     std::cout << "Program started..." << std::endl;
-    Window window(800,600,"CGE");
-    window.MainLoop();
+    Window EngineWindow(800,600,"CGE");
+    EngineWindow.MainLoop();
     return 0;
 }
 
