@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/sepehrshamloo/Desktop/CGE/cge_source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sepehrshamloo/Desktop/CGE/cge_source
+CMAKE_BINARY_DIR = /Users/sepehrshamloo/desktop/CGE/cge_source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles /Users/sepehrshamloo/Desktop/CGE/cge_source//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles /Users/sepehrshamloo/desktop/CGE/cge_source//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main_exec
+# Target rules for targets named cge_macos_build
 
 # Build rule for target.
-main_exec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_exec
-.PHONY : main_exec
+cge_macos_build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cge_macos_build
+.PHONY : cge_macos_build
 
 # fast build rule for target.
-main_exec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/build
-.PHONY : main_exec/fast
+cge_macos_build/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/build
+.PHONY : cge_macos_build/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,8 +150,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+window.o: window.cpp.o
+.PHONY : window.o
+
+# target to build an object file
+window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.o
+.PHONY : window.cpp.o
+
+window.i: window.cpp.i
+.PHONY : window.i
+
+# target to preprocess a source file
+window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.i
+.PHONY : window.cpp.i
+
+window.s: window.cpp.s
+.PHONY : window.s
+
+# target to generate assembly for a file
+window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.s
+.PHONY : window.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main_exec"
+	@echo "... cge_macos_build"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... window.o"
+	@echo "... window.i"
+	@echo "... window.s"
 .PHONY : help
 
 
