@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/sepehrshamloo/Desktop/CGE/cge_source/main.cpp" "CMakeFiles/cge_macos_build.dir/main.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/main.cpp.o.d"
+  "/Users/sepehrshamloo/desktop/CGE/cge_source/main.cpp" "CMakeFiles/cge_macos_build.dir/main.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/main.cpp.o.d"
+  "/Users/sepehrshamloo/desktop/CGE/cge_source/window.cpp" "CMakeFiles/cge_macos_build.dir/window.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
