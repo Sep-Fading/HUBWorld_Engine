@@ -1,10 +1,10 @@
 #include <iostream>
-#include "window.h"
+#include "libs/universal/custom_libraries/enginewindow/engine_window.h"
 
 int main(){
     std::cout << "Program started..." << std::endl;
-    Window EngineWindow(800,600,"CGE");
-    EngineWindow.MainLoop();
+    EngineWindow engine_window(800,600,"CGE");
+    engine_window.MainLoop();
     return 0;
 }
 

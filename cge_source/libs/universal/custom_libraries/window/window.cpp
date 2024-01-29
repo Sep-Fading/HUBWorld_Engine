@@ -1,5 +1,5 @@
 #include "window.h"
-#include "libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
+#include "../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
 #include <cstdlib>
 #include <iostream>
 #include <ostream>
@@ -45,6 +45,9 @@ void Window::Initialize() {
 void Window::Shutdown() {
     glfwDestroyWindow(window);
     glfwTerminate();
+}
+
+void Window::Render(){
 }
 
 void Window::CreateInputListener() {
