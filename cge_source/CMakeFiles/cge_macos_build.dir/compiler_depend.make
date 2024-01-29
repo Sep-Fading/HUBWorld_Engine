@@ -736,7 +736,7 @@ CMakeFiles/cge_macos_build.dir/main.cpp.o: main.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
-  libs/macos/glfw/glfw-3.3.9.bin-2.MACOS/include/GLFW/glfw3.h \
+  libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
   window.h
 
 CMakeFiles/cge_macos_build.dir/window.cpp.o: window.cpp \
@@ -1474,7 +1474,7 @@ CMakeFiles/cge_macos_build.dir/window.cpp.o: window.cpp \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
-  libs/macos/glfw/glfw-3.3.9.bin-2.MACOS/include/GLFW/glfw3.h \
+  libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
   window.h
 
 
@@ -2358,6 +2358,8 @@ window.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/default_searcher.h:
 
+libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_intmax_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/is_heap.h:
@@ -2871,8 +2873,6 @@ window.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h:
-
-libs/macos/glfw/glfw-3.3.9.bin-2.MACOS/include/GLFW/glfw3.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/alloca.h:
 

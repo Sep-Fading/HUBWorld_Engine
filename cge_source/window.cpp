@@ -29,10 +29,10 @@ void Window::MainLoop() {
     while (!glfwWindowShouldClose(window)){
         // Poll for and process events
         glfwPollEvents();
-        
-
+        // Create an input listener.
+        CreateInputListener();
         // Render here
-
+        
         // Swap front & back buffers
         glfwSwapBuffers(window);
     }
@@ -45,4 +45,19 @@ void Window::Initialize() {
 void Window::Shutdown() {
     glfwDestroyWindow(window);
     glfwTerminate();
+}
+
+void Window::CreateInputListener() {
+    glfwSetKeyCallback(window, Window::InputListener);
+}
+
+void Window::InputListener(GLFWwindow* window, int key, int scancode
+                            , int action, int mods){
+    // Probably want to setup some keymaps here
+    // But for testing purposes lets just have something here.
+
+    if (key == GLFW_KEY_1 && action == GLFW_PRESS){
+        std::cout << "Keypress recognised" << std::endl;
+    }
+
 }

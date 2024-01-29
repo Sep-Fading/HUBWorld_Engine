@@ -13,10 +13,14 @@ public:
     ~Window();
 
     void MainLoop();
+
+    static void InputListener(GLFWwindow* window, int key,
+                              int scancode, int action, int mods);
 private:
     GLFWwindow* window;
     void Initialize();
     void Shutdown();
+    void CreateInputListener();
 };
 
 #endif // WINDOW_H
