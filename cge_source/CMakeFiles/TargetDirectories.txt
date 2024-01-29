@@ -1,3 +1,0 @@
-/Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles/cge_macos_build.dir
-/Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles/edit_cache.dir
-/Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles/rebuild_cache.dir
