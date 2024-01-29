@@ -5,22 +5,24 @@
 
 
 // Including the dependencies
-#include "libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
+#include "../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
 
 class Window {
 public:
     Window(int width, int height, const char* title);
     ~Window();
 
-    void MainLoop();
+    virtual void MainLoop();
 
     static void InputListener(GLFWwindow* window, int key,
                               int scancode, int action, int mods);
-private:
+
+protected:
     GLFWwindow* window;
     void Initialize();
     void Shutdown();
     void CreateInputListener();
+    virtual void Render();
 };
 
 #endif // WINDOW_H

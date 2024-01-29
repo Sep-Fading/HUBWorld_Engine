@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/sepehrshamloo/Desktop/CGE/cge_source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/sepehrshamloo/desktop/CGE/cge_source
+CMAKE_BINARY_DIR = /Users/sepehrshamloo/Desktop/cge/cge_source
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles /Users/sepehrshamloo/desktop/CGE/cge_source//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/Desktop/cge/cge_source/CMakeFiles /Users/sepehrshamloo/Desktop/cge/cge_source//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/desktop/CGE/cge_source/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/sepehrshamloo/Desktop/cge/cge_source/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,30 @@ cge_macos_build/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/build
 .PHONY : cge_macos_build/fast
 
+libs/universal/custom_libraries/window/window.o: libs/universal/custom_libraries/window/window.cpp.o
+.PHONY : libs/universal/custom_libraries/window/window.o
+
+# target to build an object file
+libs/universal/custom_libraries/window/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o
+.PHONY : libs/universal/custom_libraries/window/window.cpp.o
+
+libs/universal/custom_libraries/window/window.i: libs/universal/custom_libraries/window/window.cpp.i
+.PHONY : libs/universal/custom_libraries/window/window.i
+
+# target to preprocess a source file
+libs/universal/custom_libraries/window/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.i
+.PHONY : libs/universal/custom_libraries/window/window.cpp.i
+
+libs/universal/custom_libraries/window/window.s: libs/universal/custom_libraries/window/window.cpp.s
+.PHONY : libs/universal/custom_libraries/window/window.s
+
+# target to generate assembly for a file
+libs/universal/custom_libraries/window/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.s
+.PHONY : libs/universal/custom_libraries/window/window.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,30 +177,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-window.o: window.cpp.o
-.PHONY : window.o
-
-# target to build an object file
-window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.o
-.PHONY : window.cpp.o
-
-window.i: window.cpp.i
-.PHONY : window.i
-
-# target to preprocess a source file
-window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.i
-.PHONY : window.cpp.i
-
-window.s: window.cpp.s
-.PHONY : window.s
-
-# target to generate assembly for a file
-window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/window.cpp.s
-.PHONY : window.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cge_macos_build"
+	@echo "... libs/universal/custom_libraries/window/window.o"
+	@echo "... libs/universal/custom_libraries/window/window.i"
+	@echo "... libs/universal/custom_libraries/window/window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... window.o"
-	@echo "... window.i"
-	@echo "... window.s"
 .PHONY : help
 
 
