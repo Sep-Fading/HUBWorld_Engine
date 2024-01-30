@@ -20,7 +20,8 @@ link_directories(${CMAKE_BINARY_DIR}/libs/macos/glfw/glfwMACOS)
 project(CGEngine)
 
 # LINK THE CODE FILE TO AN EXECUTABLE
-add_executable(cge_macos_build main.cpp ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp)
+add_executable(cge_macos_build main.cpp ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp 
+${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/enginewindow/engine_window.cpp)
 
 # LINK GLFW WITH THE PROJECT
 set(GLFW_LIBRARY "${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib")# MAC-OS

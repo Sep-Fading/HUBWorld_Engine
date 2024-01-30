@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o"
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o.d"
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o"
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o.d"
   "CMakeFiles/cge_macos_build.dir/main.cpp.o"
