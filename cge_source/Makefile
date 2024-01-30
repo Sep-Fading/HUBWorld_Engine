@@ -129,6 +129,30 @@ cge_macos_build/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/build
 .PHONY : cge_macos_build/fast
 
+libs/universal/custom_libraries/enginewindow/engine_window.o: libs/universal/custom_libraries/enginewindow/engine_window.cpp.o
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.o
+
+# target to build an object file
+libs/universal/custom_libraries/enginewindow/engine_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.cpp.o
+
+libs/universal/custom_libraries/enginewindow/engine_window.i: libs/universal/custom_libraries/enginewindow/engine_window.cpp.i
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.i
+
+# target to preprocess a source file
+libs/universal/custom_libraries/enginewindow/engine_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.i
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.cpp.i
+
+libs/universal/custom_libraries/enginewindow/engine_window.s: libs/universal/custom_libraries/enginewindow/engine_window.cpp.s
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.s
+
+# target to generate assembly for a file
+libs/universal/custom_libraries/enginewindow/engine_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.s
+.PHONY : libs/universal/custom_libraries/enginewindow/engine_window.cpp.s
+
 libs/universal/custom_libraries/window/window.o: libs/universal/custom_libraries/window/window.cpp.o
 .PHONY : libs/universal/custom_libraries/window/window.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cge_macos_build"
+	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.o"
+	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.i"
+	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.s"
 	@echo "... libs/universal/custom_libraries/window/window.o"
 	@echo "... libs/universal/custom_libraries/window/window.i"
 	@echo "... libs/universal/custom_libraries/window/window.s"
