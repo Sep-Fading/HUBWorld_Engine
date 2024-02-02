@@ -125,6 +125,7 @@ debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libr
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/build.make
 debug/cge_macos_build: libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib
+debug/cge_macos_build: /opt/homebrew/lib/libfreetype.dylib
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sepehrshamloo/Desktop/cge/cge_source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable debug/cge_macos_build"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cge_macos_build.dir/link.txt --verbose=$(VERBOSE)
