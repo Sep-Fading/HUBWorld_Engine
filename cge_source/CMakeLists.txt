@@ -11,19 +11,27 @@ set(CMAKE_OSX_ARCHITECTURES "arm64")
 # SETTING BUILD OUTPUT DIRECTORY
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/debug)
 
-# INCLUDING THE DIRECTORY FOR GLFW
-include_directories(${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/include)# MAC-OS
-include_directories(${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries)
-link_directories(${CMAKE_BINARY_DIR}/libs/macos/glfw/glfwMACOS)
-
 # PROJECT NAME/DETAILS
 project(CGEngine)
 
+# INCLUDING THE DIRECTORY FOR GLFW
+include_directories(${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/include)
+include_directories(${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries)
+link_directories(${CMAKE_BINARY_DIR}/libs/macos/glfw/glfwMACOS)
+
+# FINDING LIBRARIES INSTALL ON YOUR MACHINE
+# Set FreeType paths manually if necessary
+set(FREETYPE_INCLUDE_DIRS "/opt/homebrew/include/freetype2")
+find_package(Freetype REQUIRED)
+include_directories(${FREETYPE_INCLUDE_DIRS})
+
 # LINK THE CODE FILE TO AN EXECUTABLE
-add_executable(cge_macos_build main.cpp ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp 
-${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/enginewindow/engine_window.cpp)
+add_executable(cge_macos_build main.cpp 
+  ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp 
+  ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/enginewindow/engine_window.cpp 
+)
 
 # LINK GLFW WITH THE PROJECT
-set(GLFW_LIBRARY "${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib")# MAC-OS
-target_link_libraries(cge_macos_build "${GLFW_LIBRARY}")
+set(GLFW_LIBRARY "${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib")
+target_link_libraries(cge_macos_build "${GLFW_LIBRARY}" "${FREETYPE_LIBRARIES}")
 
