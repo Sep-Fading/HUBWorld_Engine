@@ -6,7 +6,9 @@
 This comes by default with the precompiled binaries for Mac-OS by default, you will need to edit CMakeLists.txt to accomodate for universal usage or for other CPU Architectures.
 
 ### GLAD + GLM
-These also come by default, shouldn't have to worry about them but if you have problems with them look under libs/universal and also refer to CMakeLists.txt and make sure the libraries are correctly linked to your project.
+You need to install these, if you have problems with them look under libs/universal and also refer to CMakeLists.txt and make sure the libraries are correctly linked to your project.
+
+If that does not solve your issues, you may need to look at the libs/universal/custom_libraries and configure the includes to correctly include the libraries.
 
 ### Sep's Custom Libraries for CGED
 
