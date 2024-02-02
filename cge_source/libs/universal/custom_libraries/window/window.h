@@ -5,7 +5,7 @@
 
 
 // Including the dependencies
-#include "../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 
 class Window {
 public:

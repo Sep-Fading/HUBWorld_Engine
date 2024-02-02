@@ -1,5 +1,6 @@
+#include "glad/glad.h"
 #include "window.h"
-#include "../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 #include <cstdlib>
 #include <iostream>
 #include <ostream>
@@ -19,6 +20,12 @@ Window::Window(int width, int height, const char* title){
     }
 
     glfwMakeContextCurrent(window);
+
+    // Initializing GLAD, MUST BE RIGHT AFTER CREATING AN OPENGL CONTEXT!
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        std::cerr << "Failed to initialize GLAD \n";
+        std::exit(EXIT_FAILURE);
+    }
 }
 
 Window::~Window() {

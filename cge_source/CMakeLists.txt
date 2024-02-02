@@ -17,7 +17,13 @@ project(CGEngine)
 # INCLUDING THE DIRECTORY FOR GLFW
 include_directories(${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/include)
 include_directories(${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries)
+include_directories(${PROJECT_SOURCE_DIR}/libs/universal)
+include_directories(${PROJECT_SOURCE_DIR}/libs/universal/glad/include)
+
+
 link_directories(${CMAKE_BINARY_DIR}/libs/macos/glfw/glfwMACOS)
+link_directories(${CMAKE_BINARY_DIR}/libs/universal/glad/include)
+link_directories(${CMAKE_BINARY_DIR}/libs/universal)
 
 # FINDING LIBRARIES INSTALL ON YOUR MACHINE
 # Set FreeType paths manually if necessary
