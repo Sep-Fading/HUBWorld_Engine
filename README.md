@@ -11,5 +11,5 @@ This comes by default under the libs/universal/custom_libraries directory.
 
 ### FreeType
 
-You will need to install this yourself if you want to be able to recompile the software.
+You will need to install this yourself if you want to be able to recompile the software. Depending on the system you're using and how you've installed FreeType either in the project or on your system, you might need to edit CMakeLists.txt to make sure CMake is able to find and include it in your project.
 
