@@ -12,7 +12,8 @@ If that does not solve your issues, you may need to look at the libs/universal/c
 
 ### Sep's Custom Libraries for CGED
 
-This comes by default under the libs/universal/custom_libraries directory.
+This comes by default under the libs/universal/custom_libraries directory. I've tried to provide everything in the most modular form possible to provide for more customizability.
+So you can jump into any of these libraries and have a look for yourself and add or remove features as you wish.
 
 ### FreeType
 
