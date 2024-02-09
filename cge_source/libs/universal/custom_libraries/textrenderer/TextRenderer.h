@@ -7,6 +7,8 @@
 #include <glm/glm.hpp> // Use GLM for Mathematics
 #include <ft2build.h>
 #include FT_FREETYPE_H
+#include "shader/shader.h"
+
 
 struct Character {
     GLuint TextureID; // ID handle of the glyph texture
@@ -18,9 +20,8 @@ struct Character {
 class TextRenderer {
 public:
     std::map<GLchar, Character> Characters;
+    Shader TextShader;
     GLuint VAO, VBO;
-    GLuint shaderProgram; // Assume a shader program is created
-                          // elsewhere and its ID is passed here.
     
     // Constructor
     TextRenderer(GLuint width, GLuint height, GLuint shaderProgram);
