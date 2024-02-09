@@ -35,6 +35,7 @@ include_directories(${FREETYPE_INCLUDE_DIRS})
 add_executable(cge_macos_build main.cpp 
   ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp 
   ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/enginewindow/engine_window.cpp 
+  ${PROJECT_SOURCE_DIR}/libs/universal/glad/src/glad.c
 )
 
 # LINK GLFW WITH THE PROJECT

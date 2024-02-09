@@ -177,6 +177,30 @@ libs/universal/custom_libraries/window/window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.s
 .PHONY : libs/universal/custom_libraries/window/window.cpp.s
 
+libs/universal/glad/src/glad.o: libs/universal/glad/src/glad.c.o
+.PHONY : libs/universal/glad/src/glad.o
+
+# target to build an object file
+libs/universal/glad/src/glad.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o
+.PHONY : libs/universal/glad/src/glad.c.o
+
+libs/universal/glad/src/glad.i: libs/universal/glad/src/glad.c.i
+.PHONY : libs/universal/glad/src/glad.i
+
+# target to preprocess a source file
+libs/universal/glad/src/glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.i
+.PHONY : libs/universal/glad/src/glad.c.i
+
+libs/universal/glad/src/glad.s: libs/universal/glad/src/glad.c.s
+.PHONY : libs/universal/glad/src/glad.s
+
+# target to generate assembly for a file
+libs/universal/glad/src/glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.s
+.PHONY : libs/universal/glad/src/glad.c.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... libs/universal/custom_libraries/window/window.o"
 	@echo "... libs/universal/custom_libraries/window/window.i"
 	@echo "... libs/universal/custom_libraries/window/window.s"
+	@echo "... libs/universal/glad/src/glad.o"
+	@echo "... libs/universal/glad/src/glad.i"
+	@echo "... libs/universal/glad/src/glad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

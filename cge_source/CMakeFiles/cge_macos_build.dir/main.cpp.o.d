@@ -1,5 +1,5 @@
 CMakeFiles/cge_macos_build.dir/main.cpp.o: \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/main.cpp \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -731,9 +731,9 @@ CMakeFiles/cge_macos_build.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.h \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/../window/window.h \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/../window/../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/../window/window.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \

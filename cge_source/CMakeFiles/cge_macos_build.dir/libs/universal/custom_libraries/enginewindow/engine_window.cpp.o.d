@@ -1,8 +1,8 @@
 CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o: \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.cpp \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.h \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/../window/window.h \
-  /Users/sepehrshamloo/Desktop/cge/cge_source/libs/universal/custom_libraries/enginewindow/../window/../../../macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.cpp \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/../window/window.h \
+  /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/macos/glfw/glfwMACOS/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \
