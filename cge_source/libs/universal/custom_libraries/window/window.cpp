@@ -1,5 +1,6 @@
 #include <glad/glad.h>
 #include "window.h"
+#include "textrenderer/TextRenderer.h"
 #include <GLFW/glfw3.h>
 #include <cstdlib>
 #include <iostream>
@@ -11,6 +12,12 @@ Window::Window(int width, int height, const char* title){
         std::exit(EXIT_FAILURE);
     }
 
+    // Set GLFW to use OpenGL Core Profile and forward compatibility
+    // This is required for macOS and good practice for other platforms
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Choose OpenGL major version
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3); // Choose OpenGL minor version
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // Use Core Profile
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // Required on macOS
     window = glfwCreateWindow(width, height, title, nullptr, nullptr);
 
     if (!window) {
@@ -55,6 +62,21 @@ void Window::Shutdown() {
 }
 
 void Window::Render(){
+}
+
+TextRenderer Window::SetupTextRenderer(const char* vertexPath, const char* fragmentPath,
+                               std::string& fontPath, GLuint fontSize,
+                               int sWidth, int sHeight){
+
+    Shader textShader(vertexPath, fragmentPath);
+
+    // Init the text rednerer with the screen width, height, shader program ID
+    TextRenderer textRenderer(sWidth, sHeight, textShader.ID);
+
+    // Load the font with the desired font size
+    textRenderer.LoadFont(fontPath, fontSize);
+
+    return textRenderer;
 }
 
 void Window::CreateInputListener() {
