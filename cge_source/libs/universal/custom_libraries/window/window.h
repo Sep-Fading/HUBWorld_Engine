@@ -5,7 +5,9 @@
 
 
 // Including the dependencies
+#include "textrenderer/TextRenderer.h"
 #include <GLFW/glfw3.h>
+#include <string>
 
 class Window {
 public:
@@ -16,6 +18,10 @@ public:
 
     static void InputListener(GLFWwindow* window, int key,
                               int scancode, int action, int mods);
+    
+    TextRenderer SetupTextRenderer(const char* vertexPath, const char* fragmentPath,
+                           std::string& fontPath, GLuint fontSize,
+                           int sWidth, int sHeight);
 
 protected:
     GLFWwindow* window;

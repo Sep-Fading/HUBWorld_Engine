@@ -125,12 +125,42 @@ CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/glad/src/glad.c -o CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.s
 
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o: CMakeFiles/cge_macos_build.dir/flags.make
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o: libs/universal/custom_libraries/shader/shader.cpp
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o: CMakeFiles/cge_macos_build.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o -MF CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o.d -o CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o -c /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/shader/shader.cpp
+
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/shader/shader.cpp > CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.i
+
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/shader/shader.cpp -o CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.s
+
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o: CMakeFiles/cge_macos_build.dir/flags.make
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o: libs/universal/custom_libraries/textrenderer/TextRenderer.cpp
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o: CMakeFiles/cge_macos_build.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o -MF CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o.d -o CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o -c /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp
+
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp > CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i
+
+CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp -o CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s
+
 # Object files for target cge_macos_build
 cge_macos_build_OBJECTS = \
 "CMakeFiles/cge_macos_build.dir/main.cpp.o" \
 "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o" \
 "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o" \
-"CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o"
+"CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o" \
+"CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o" \
+"CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o"
 
 # External object files for target cge_macos_build
 cge_macos_build_EXTERNAL_OBJECTS =
@@ -139,11 +169,13 @@ debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/main.cpp.o
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o
+debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o
+debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/build.make
-debug/cge_macos_build: libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib
+debug/cge_macos_build: libs/macos/glfw/glfwMACOS/lib-universal/libglfw.3.dylib
 debug/cge_macos_build: /opt/homebrew/lib/libfreetype.dylib
 debug/cge_macos_build: CMakeFiles/cge_macos_build.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable debug/cge_macos_build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/sepehrshamloo/Desktop/CGE/cge_source/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable debug/cge_macos_build"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cge_macos_build.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

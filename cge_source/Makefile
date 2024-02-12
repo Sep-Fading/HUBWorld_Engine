@@ -153,6 +153,54 @@ libs/universal/custom_libraries/enginewindow/engine_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.s
 .PHONY : libs/universal/custom_libraries/enginewindow/engine_window.cpp.s
 
+libs/universal/custom_libraries/shader/shader.o: libs/universal/custom_libraries/shader/shader.cpp.o
+.PHONY : libs/universal/custom_libraries/shader/shader.o
+
+# target to build an object file
+libs/universal/custom_libraries/shader/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o
+.PHONY : libs/universal/custom_libraries/shader/shader.cpp.o
+
+libs/universal/custom_libraries/shader/shader.i: libs/universal/custom_libraries/shader/shader.cpp.i
+.PHONY : libs/universal/custom_libraries/shader/shader.i
+
+# target to preprocess a source file
+libs/universal/custom_libraries/shader/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.i
+.PHONY : libs/universal/custom_libraries/shader/shader.cpp.i
+
+libs/universal/custom_libraries/shader/shader.s: libs/universal/custom_libraries/shader/shader.cpp.s
+.PHONY : libs/universal/custom_libraries/shader/shader.s
+
+# target to generate assembly for a file
+libs/universal/custom_libraries/shader/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.s
+.PHONY : libs/universal/custom_libraries/shader/shader.cpp.s
+
+libs/universal/custom_libraries/textrenderer/TextRenderer.o: libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.o
+
+# target to build an object file
+libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o
+
+libs/universal/custom_libraries/textrenderer/TextRenderer.i: libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.i
+
+# target to preprocess a source file
+libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.i
+
+libs/universal/custom_libraries/textrenderer/TextRenderer.s: libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.s
+
+# target to generate assembly for a file
+libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cge_macos_build.dir/build.make CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s
+.PHONY : libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.s
+
 libs/universal/custom_libraries/window/window.o: libs/universal/custom_libraries/window/window.cpp.o
 .PHONY : libs/universal/custom_libraries/window/window.o
 
@@ -237,6 +285,12 @@ help:
 	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.o"
 	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.i"
 	@echo "... libs/universal/custom_libraries/enginewindow/engine_window.s"
+	@echo "... libs/universal/custom_libraries/shader/shader.o"
+	@echo "... libs/universal/custom_libraries/shader/shader.i"
+	@echo "... libs/universal/custom_libraries/shader/shader.s"
+	@echo "... libs/universal/custom_libraries/textrenderer/TextRenderer.o"
+	@echo "... libs/universal/custom_libraries/textrenderer/TextRenderer.i"
+	@echo "... libs/universal/custom_libraries/textrenderer/TextRenderer.s"
 	@echo "... libs/universal/custom_libraries/window/window.o"
 	@echo "... libs/universal/custom_libraries/window/window.i"
 	@echo "... libs/universal/custom_libraries/window/window.s"

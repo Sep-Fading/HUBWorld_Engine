@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/glad/src/glad.c" "CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o" "gcc" "CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o.d"
   "/Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/enginewindow/engine_window.cpp" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o.d"
+  "/Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/shader/shader.cpp" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o.d"
+  "/Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o.d"
   "/Users/sepehrshamloo/Desktop/CGE/cge_source/libs/universal/custom_libraries/window/window.cpp" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o.d"
   "/Users/sepehrshamloo/Desktop/CGE/cge_source/main.cpp" "CMakeFiles/cge_macos_build.dir/main.cpp.o" "gcc" "CMakeFiles/cge_macos_build.dir/main.cpp.o.d"
   )

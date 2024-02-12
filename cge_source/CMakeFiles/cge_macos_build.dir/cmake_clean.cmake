@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o"
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/enginewindow/engine_window.cpp.o.d"
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o"
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/shader/shader.cpp.o.d"
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o"
+  "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp.o.d"
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o"
   "CMakeFiles/cge_macos_build.dir/libs/universal/custom_libraries/window/window.cpp.o.d"
   "CMakeFiles/cge_macos_build.dir/libs/universal/glad/src/glad.c.o"

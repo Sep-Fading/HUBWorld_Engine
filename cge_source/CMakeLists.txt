@@ -35,10 +35,12 @@ include_directories(${FREETYPE_INCLUDE_DIRS})
 add_executable(cge_macos_build main.cpp 
   ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/window/window.cpp 
   ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/enginewindow/engine_window.cpp 
-  ${PROJECT_SOURCE_DIR}/libs/universal/glad/src/glad.c
+  ${PROJECT_SOURCE_DIR}/libs/universal/glad/src/glad.c 
+  ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/shader/shader.cpp 
+  ${PROJECT_SOURCE_DIR}/libs/universal/custom_libraries/textrenderer/TextRenderer.cpp
 )
 
 # LINK GLFW WITH THE PROJECT
-set(GLFW_LIBRARY "${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/lib-arm64/libglfw.3.dylib")
+set(GLFW_LIBRARY "${PROJECT_SOURCE_DIR}/libs/macos/glfw/glfwMACOS/lib-universal/libglfw.3.dylib")
 target_link_libraries(cge_macos_build "${GLFW_LIBRARY}" "${FREETYPE_LIBRARIES}")
 

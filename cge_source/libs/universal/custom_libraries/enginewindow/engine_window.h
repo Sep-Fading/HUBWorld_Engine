@@ -1,4 +1,6 @@
+#include "textrenderer/TextRenderer.h"
 #include "../window/window.h"
+
 
 class EngineWindow : public Window {
 public:
@@ -6,8 +8,8 @@ public:
         : Window(width, height, title) {
     }
 
-    virtual void MainLoop() override;
+    virtual void MainLoop(TextRenderer textRenderer);
 
 protected:
-    virtual void Render() override;
+    virtual void Render(TextRenderer textRenderer);
 };
