@@ -20,6 +20,11 @@ So you can jump into any of these libraries and have a look for yourself and add
 
 You will need to install this yourself if you want to be able to recompile the software. Depending on the system you're using and how you've installed FreeType either in the project or on your system, you might need to edit CMakeLists.txt to make sure CMake is able to find and include it in your project.
 
+
+#### Current Bugs:
+
+- Text renderer seems to have some issues when the software is compiled on MacOS or arm64 CPUs. Looking for solutions to this.
+
 #### Notes for myself (You can ignore this):
 
 Need to figure out x86 Compilation for windows from MacOS using mingw and toolchain files from cmake.
